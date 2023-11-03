@@ -67,10 +67,8 @@ li {
     overflow: hidden;
 }
 
-.tabs,
-.link,
-.quicklink {
-    flex-grow: 1;
+.jcd {
+    justify-content: space-between;
 }
 
 
@@ -98,8 +96,8 @@ footer {
 }
 
 #gnb>li>a {
-    font-size: 1.5rem;
-    background-color: #17a2b8;
+    font-size: 1rem;
+
     display: block;
     padding: 10px 2rem;
 }
@@ -111,33 +109,6 @@ footer {
     right: 0;
     bottom: 0;
     text-align: center;
-    overflow: hidden;
 
 
-}
-
-
-#gnb li:hover ul {
-    height: 150px;
-    background-color: aquamarine;
-}
-
-#bg {
-    background-color: salmon;
-}
-
-.threebanner {
-    font-size: 1.5rem;
-    background-color: chocolate;
-}
-
-#footer ul a {
-    padding: 2rem;
-    margin: 100px;
-
-}
-
-p {
-    text-align: center;
-    justify-content: end;
 }
