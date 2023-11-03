@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.bg-check {
+    background-color: gray;
+}
+
+.position-rel {
+    position: relative;
+}
+
+.position-abs {
+    position: absolute;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.aic {
+    align-items: center;
+}
+
+.ofh {
+    overflow: hidden;
+}
+
+.h-0 {
+    height: 0;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h300 {
+    height: 300px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.swiper {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.tabs,
+.link,
+.quicklink {
+    flex-grow: 1;
+}
+
+
+/* style */
+h1 {
+    margin-left: 30px;
+}
+
+footer {
+    background-color: grey;
+}
+
+#hd {
+    background-color: skyblue;
+}
+
+#gnb>li {
+    padding: 0 2rem;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#gnb>li>a {
+    font-size: 1.5rem;
+    background-color: #17a2b8;
+    display: block;
+    padding: 10px 2rem;
+}
+
+#gnb ul {
+    top: 100%;
+    line-height: 2;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    overflow: hidden;
+
+
+}
+
+
+#gnb li:hover ul {
+    height: 150px;
+    background-color: aquamarine;
+}
+
+#bg {
+    background-color: salmon;
+}
+
+.threebanner {
+    font-size: 1.5rem;
+    background-color: chocolate;
+}
+
+#footer ul a {
+    padding: 2rem;
+    margin: 100px;
+
+}
+
+p {
+    text-align: center;
+    justify-content: end;
+}
